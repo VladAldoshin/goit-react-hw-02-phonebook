@@ -1,7 +1,8 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import './Filter.module.css';
 
-export const Filter = ({ filter, changeFilterInput }) => (
+const Filter = ({ filter, changeFilterInput }) => (
   <label>
     <input
       type="text"
@@ -17,3 +18,7 @@ Filter.propTypes = {
   filter: PropTypes.string.isRequired,
   changeFilterInput: PropTypes.func.isRequired,
 };
+
+export default Filter;
+
+
