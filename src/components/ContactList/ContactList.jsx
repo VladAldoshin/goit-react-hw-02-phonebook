@@ -1,25 +1,3 @@
-// import React from 'react';
-// import PropTypes from 'prop-types';
-// import './ContactList.module.css';
-
-// const ContactList = ({ contacts, deleteContact }) => {
-//   return (
-//     <ul>
-//       {contacts.map(({ id, name, number }) => {
-//         return (
-//           <li key={id}>
-//             <p>
-//               {name}: {number}
-//             </p>
-//             <button type="button" onClick={() => deleteContact(id)}>
-//               Delete
-//             </button>
-//           </li>
-//         );
-//       })}
-//     </ul>
-//   );
-// };
 import React from 'react';
 import PropTypes from 'prop-types';
 import './ContactList.module.css';
